@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A485F3B1-4AB6-F9F2-4BF7-C69489F398E9" name="PayPal">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>B6D9ED3C-2AE4-7B16-950B-2E446300D47A</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPayPal" id="1F5FCACD-E7ED-9B8E-538D-FF3EB4D72226">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>9637D13B-72CF-AECE-ED40-2F98ABF54222</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Token" id="022F6976-40C2-3716-8050-3A844E5BB108">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>4286F2AB-FBF6-3F46-7733-D0A32020942F</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FormasPagamento_IdFormaPagamento" id="409F436B-E3AC-A0E7-4AE4-E75382C5A6B4">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>FDFD4CA6-2787-DD65-4471-9124AB65E475</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79FEB43B-85E4-E61E-A0E3-FDDAA678F865" referredColumn="44B741F6-0EB8-4B6C-6EDE-8289A829DFA8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="818B5A7F-0C0A-318C-028A-962118B43127" name="PayPal_PK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>B68ACC27-D2D1-8709-4655-ED70F7A72F93</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F5FCACD-E7ED-9B8E-538D-FF3EB4D72226"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC57091A-B51C-EBEC-9274-EC77E5593DFB" name="PayPal__IDX">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>97371339-9E35-9E7C-57D9-E95057250FB3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="409F436B-E3AC-A0E7-4AE4-E75382C5A6B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88B4F217-3D68-BBB9-BD6E-B30465D4204E" name="PayPal_FormasPagamento_FK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>97371339-9E35-9E7C-57D9-E95057250FB3</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="409F436B-E3AC-A0E7-4AE4-E75382C5A6B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

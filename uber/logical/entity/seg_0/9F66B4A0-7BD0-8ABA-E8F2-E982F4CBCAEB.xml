@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F66B4A0-7BD0-8ABA-E8F2-E982F4CBCAEB" name="CodigosPaises">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:30:04 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdCodigoPais" id="589EA26F-BE81-2837-B228-AF3CA2EBA43A">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:30:16 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo" id="773AE8BA-A11B-E9E5-C336-30F2DD43B296">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:30:36 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdTelefones" id="AEA50DA9-A594-F1F8-FD56-CA0DD4154113">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:35:32 UTC</createdTime>
+<generatorID>5F2EB7BD-E051-12C1-C183-1BA134B3CF61</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<referedAttribute>D3228947-5554-6721-D579-FC572A589A98</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="133E27B0-FC39-C21F-7520-892D5043576D" name="CodigoPaises PK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:30:35 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>589EA26F-BE81-2837-B228-AF3CA2EBA43A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1B57B878-BB82-CFAC-02AF-1F764B41530F" containerWithKeyObject="D40632C9-6442-FE55-57F7-9035378FD6D8" localFKIndex="5FD65C35-34A7-147F-257C-8579F8564726" name="CodigosPaises_Telefones_FK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>5F2EB7BD-E051-12C1-C183-1BA134B3CF61</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<referredTableLongName>Telefones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2D83EAA5-7FA2-7B0E-91AF-0FEA29ACC354</referredTableID>
+<keyObject>90A43D29-7665-5DC1-B64B-8842EC2074BA</keyObject>
+<referredKeyID>90A43D29-7665-5DC1-B64B-8842EC2074BA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdTelefones</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

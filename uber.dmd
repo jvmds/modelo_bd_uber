@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="uber" id="A5DBC521-B392-5BF5-E54B-CDC9D93C0631" version="3.5">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-24 19:55:32 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A5DBC521-B392-5BF5-E54B-CDC9D93C0631</designId>
+</OSDM_Design>

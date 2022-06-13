@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B26A3FA-A88B-9163-FF7D-910D6C6B474C" name="Viagens">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-24 22:17:55 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdViagem" id="23A5D4E1-481D-0C95-D1FC-B90F805F30D2">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-24 22:18:08 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataHoraPartida" id="74A39EDB-D6C0-056B-B1FF-78F243BD8E54">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-24 22:19:01 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataHoraChegada" id="6E2B768C-01E9-F304-2461-0E06AAC5423C">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-24 22:19:45 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LocalizacaoPartida" id="A1E07DA8-8DC0-F980-A98E-0541A6D087B7">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-24 22:21:23 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>47823B89-BECE-2D4A-B641-EE3BE6149078</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LocalizacaoChegada" id="854F6E3F-9237-40E4-97D9-07210503D4F3">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-24 22:22:42 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>47823B89-BECE-2D4A-B641-EE3BE6149078</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TotalViagem" id="7809AB8E-2E68-3A3A-0EB6-1DA7FF4A6E05">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-27 00:41:52 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUsuario" id="6097AB50-69D2-EE66-77AE-143A00C18C74">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-27 01:03:21 UTC</createdTime>
+<generatorID>56BB5E58-CABB-D453-D028-1B2FC76FB61F</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<referedAttribute>5BAE641A-4370-5385-BEC5-35B8D201CCB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdFormaPagamento" id="C7261F74-9903-4AE7-C7B0-6721FA46A275">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:47:18 UTC</createdTime>
+<generatorID>453C4229-6A80-C4F1-B077-90F64529402A</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<referedAttribute>1DF08FB9-162F-433D-46E4-F2B8408DB4A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C815204-B63C-95FB-4349-25770AD38A8E" name="VIAGEM PK">
+<createdBy>joao</createdBy>
+<createdTime>2022-05-24 22:18:58 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23A5D4E1-481D-0C95-D1FC-B90F805F30D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

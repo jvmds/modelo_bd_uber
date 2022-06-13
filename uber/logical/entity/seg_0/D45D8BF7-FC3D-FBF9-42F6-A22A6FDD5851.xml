@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D45D8BF7-FC3D-FBF9-42F6-A22A6FDD5851" name="Identidades">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:22:11 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdIdentidade" id="803AD0A6-C773-8D4E-F795-2ED9002E8C6B">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:25:18 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero" id="DC926637-0486-148B-E4D9-5D439B824CED">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:25:34 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OegaoEmissor" id="11C175CA-9F04-3E1A-8036-C8AD46BFFE90">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:26:10 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UF" id="660200BE-84E8-BE8F-90F0-06854C20B345">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:26:41 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataEmissao" id="34507520-D617-B1A2-56B6-F9788B5D44A3">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:27:06 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUsuario" id="7B8AC721-393A-1332-900C-0F370465AAB4">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:27:54 UTC</createdTime>
+<generatorID>689E863A-99EB-6E5B-F08B-6C9A42DCA218</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<referedAttribute>5BAE641A-4370-5385-BEC5-35B8D201CCB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6705023-CF3F-5F96-0671-DD97A59F5D1E" name="Identidade PK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:25:32 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>803AD0A6-C773-8D4E-F795-2ED9002E8C6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

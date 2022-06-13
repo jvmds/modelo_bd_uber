@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_FormaPagamento_Referese_Cartoes" directorySegmentName="seg_0" id="7E2CE383-1ED2-A680-A224-733EF1719A71">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:45:54 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<sourcePk>10411EA6-F52E-1FA6-454A-FABC7FF4ED13</sourcePk>
+<targetPk>AD1DB8C2-BAEB-7AC2-6BA0-7614DD871158</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>71F0629F-49F6-5D35-C155-7767F9C85FF7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A1ED40B3-50E1-8520-36E4-FF7A35EB9F60</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

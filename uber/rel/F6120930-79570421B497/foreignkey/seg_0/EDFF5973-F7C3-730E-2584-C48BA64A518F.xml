@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDFF5973-F7C3-730E-2584-C48BA64A518F" containerWithKeyObject="63A163C0-FD6D-C44D-EDAF-DEAE7CED1347" localFKIndex="566EE729-B530-0F58-47CE-9F2E98484BF2" name="CNHs_Usuarios_FK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>FE76F36B-38F7-7D6F-A391-16FAEFE12326</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<referredTableLongName>Usuarios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F3BC9C69-1D45-01BB-0761-C1CF223B5857</referredTableID>
+<keyObject>71CD6EE6-91F8-625D-5793-E3DF27D5A7E4</keyObject>
+<referredKeyID>71CD6EE6-91F8-625D-5793-E3DF27D5A7E4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdUsuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

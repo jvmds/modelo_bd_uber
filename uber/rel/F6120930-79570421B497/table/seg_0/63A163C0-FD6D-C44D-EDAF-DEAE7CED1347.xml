@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63A163C0-FD6D-C44D-EDAF-DEAE7CED1347" name="CNHs">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>F7532013-C10F-FA93-5778-669D5D322B96</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCNH" id="E7F39C23-5413-48FB-BC76-B611E6EE993A">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>731B526C-10F0-EFF4-4252-E5B032DAD65E</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="32997B0F-CFD5-1147-E060-0C833232AC21">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>3F3DDD69-FC9E-6DE5-D0BC-A89A1C93FEE9</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataPrimeiraHabilitacao" id="66CA598E-DAE7-33D8-41A1-46393C627898">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>004AA43F-E1F3-CFEA-4003-E3B4EDD73721</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF" id="BC414927-DFB2-8B51-4AF5-50D44C05F28A">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>E7825E29-DC39-7192-2572-0A5B2880920A</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuarios_IdUsuario" id="B6DCD2CB-DA01-0CCA-3522-941BFC1A7832">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>2D1C04E9-3EBD-298E-E2C5-C29D61B276D1</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDFF5973-F7C3-730E-2584-C48BA64A518F" referredColumn="1BF5F667-8B31-2CC7-2800-11C0D850EF31"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2E623B6-1404-F57B-839C-EF3510666290" name="CNHs_PK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>01D25F81-FE5F-D8E1-661F-B078ACFE2B44</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7F39C23-5413-48FB-BC76-B611E6EE993A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B545062E-C341-3A90-A30E-33D9638B27E0" name="CNHs__IDX">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FE76F36B-38F7-7D6F-A391-16FAEFE12326</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B6DCD2CB-DA01-0CCA-3522-941BFC1A7832"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="566EE729-B530-0F58-47CE-9F2E98484BF2" name="CNHs_Usuarios_FK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>FE76F36B-38F7-7D6F-A391-16FAEFE12326</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6DCD2CB-DA01-0CCA-3522-941BFC1A7832"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

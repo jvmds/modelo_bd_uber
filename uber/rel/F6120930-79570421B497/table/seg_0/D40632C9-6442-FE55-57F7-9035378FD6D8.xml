@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D40632C9-6442-FE55-57F7-9035378FD6D8" name="CodigosPaises">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>9F66B4A0-7BD0-8ABA-E8F2-E982F4CBCAEB</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCodigoPais" id="0C38A8B5-AECD-5F3F-97DE-E6ED29517682">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>589EA26F-BE81-2837-B228-AF3CA2EBA43A</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="E499E354-5A99-4712-7489-0332624B4A19">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>773AE8BA-A11B-E9E5-C336-30F2DD43B296</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefones_IdTelefones" id="1071A8B7-6E8C-C8AB-6079-219BF95C82CB">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>AEA50DA9-A594-F1F8-FD56-CA0DD4154113</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B57B878-BB82-CFAC-02AF-1F764B41530F" referredColumn="5DE6E700-A0A8-1F60-C23C-33E3336C50C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75DA9721-DD42-7C26-DCEC-1C8011064ACF" name="CodigosPaises_PK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>133E27B0-FC39-C21F-7520-892D5043576D</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C38A8B5-AECD-5F3F-97DE-E6ED29517682"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FD65C35-34A7-147F-257C-8579F8564726" name="CodigosPaises_Telefones_FK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>5F2EB7BD-E051-12C1-C183-1BA134B3CF61</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1071A8B7-6E8C-C8AB-6079-219BF95C82CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

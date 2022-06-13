@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="002262E9-4F7D-C954-513C-B6D32B825E88" name="Automoveis">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>215D5ED8-A8C7-4701-BDE9-64D82AB4D695</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAutomovel" id="7B3ADFE2-F7EB-57C5-EB31-00C10EDA0EE6">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>D7E8A79B-A432-D97D-976F-3EA29DB061A0</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CRLV" id="1AFE4292-6952-5BCC-310C-646C23747EDA">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>845111D5-868A-B28C-AE5B-E4346B9F31BC</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuarios_IdUsuario" id="4382722D-4C49-7D42-B294-54B922BA2F84">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>5A6D3402-26F8-80E3-AD80-4271BD2DBC18</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EDCA406-F6BE-16F3-21E7-05C4D9FD877F" referredColumn="1BF5F667-8B31-2CC7-2800-11C0D850EF31"/>
+</associations>
+</Column>
+<Column name="Placa" id="4B750472-0D65-1B25-76A6-9DF765045B66">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>C695FF77-DC66-9804-A71E-ED1546639E91</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Renavam" id="19471214-86A7-5D6B-3C1E-30A32DDCD435">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>78F8B626-67AA-6EA2-A2C5-DD9499D3DEC8</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Chassi" id="BC8A5B24-DB3E-8483-1B44-F0EBF3691F34">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>1FFD9AF3-16B9-D9F5-8A1A-02AE62AE4159</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="938DC3AD-DC8B-B1CA-A2E9-AA27FCFC8560" name="Automoveis_PK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>1AD3E304-A4A6-F019-9636-EDA2EBFDEB47</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B3ADFE2-F7EB-57C5-EB31-00C10EDA0EE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B36365F-0599-1E05-43E7-CCA80FF0AE9B" name="Automoveis__IDX">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D31CAA44-7344-22CB-A6E9-4ACEAF391AAC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4382722D-4C49-7D42-B294-54B922BA2F84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4E04640-6776-EF4B-AFC3-912D696A2992" name="Automoveis_Usuarios_FK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>D31CAA44-7344-22CB-A6E9-4ACEAF391AAC</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4382722D-4C49-7D42-B294-54B922BA2F84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="limitarRenavanNumerico" directorySegmentName="seg_0" id="0EDD08DC-562F-06E9-AC77-64451A37A685">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:57:23 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<rule><![CDATA[Renavan not like '%[^a-z]%']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EEABB39-4EB0-FB6C-F9DD-626BFDB6D982" name="Telefones">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:32:56 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdTelefones" id="D3228947-5554-6721-D579-FC572A589A98">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:33:02 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DDDCelular" id="BA9E7BB6-F782-F6F1-9667-62E15F9FFCF4">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:33:15 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumeroCelular" id="1BED389B-E5E3-0821-0B98-3FA46AB386C3">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:33:44 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUsuario" id="D9DC7444-5D87-EB92-D3C2-79F8100186EB">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:36:08 UTC</createdTime>
+<generatorID>A9FD23FB-B6C4-7F6C-2BF9-AFDFD4131300</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<referedAttribute>5BAE641A-4370-5385-BEC5-35B8D201CCB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C6AEB8A-31ED-0031-C8C6-557F0DD9BE7C" name="Telefones PK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:33:13 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3228947-5554-6721-D579-FC572A589A98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

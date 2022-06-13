@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Telefones_Possui_CodigoPais" directorySegmentName="seg_0" id="5F2EB7BD-E051-12C1-C183-1BA134B3CF61">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:35:32 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<sourcePk>5C6AEB8A-31ED-0031-C8C6-557F0DD9BE7C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4EEABB39-4EB0-FB6C-F9DD-626BFDB6D982</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9F66B4A0-7BD0-8ABA-E8F2-E982F4CBCAEB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

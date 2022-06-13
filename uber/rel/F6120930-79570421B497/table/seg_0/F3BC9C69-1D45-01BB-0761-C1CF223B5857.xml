@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3BC9C69-1D45-01BB-0761-C1CF223B5857" name="Usuarios">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>443F3774-8922-B741-1A3D-4C9F10A58D43</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdUsuario" id="1BF5F667-8B31-2CC7-2800-11C0D850EF31">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>5BAE641A-4370-5385-BEC5-35B8D201CCB7</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrimeiroNome" id="57B90745-608D-7143-909F-B7C6DED39D6D">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>C897A5E8-E8EC-C5D2-6B0C-F69A69C8D02E</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UltimoNome" id="430D035D-3D7B-7644-DC52-63E0A5ECE9C9">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>001CD285-833B-E2A1-A01D-3548957ECF82</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HashSenha" id="A4FB5848-4A2C-7BBC-34C0-A49C1C93E811">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>E03F8193-065B-9D7C-8DE7-FEA8511AEFE4</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Motorista" id="D7835C83-21B8-A652-8EA4-8D296A6BC61E">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>18AF3B08-87D4-48D0-62CD-72F1E2F0F7EA</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SaldoCarteira" id="4C75DC49-0CDF-1453-9FE7-14224C5BA0F6">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>C922F121-21AE-61BB-CA5D-7DE5BAB5BDDC</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefones_IdTelefones" id="EC220706-E764-D556-E977-790F867FF1A8">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>6C811944-5B18-9192-4558-05DB2B5E64B2</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39CB45B2-D804-0364-06E0-BE621DE51DA0" referredColumn="5DE6E700-A0A8-1F60-C23C-33E3336C50C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71CD6EE6-91F8-625D-5793-E3DF27D5A7E4" name="Usuarios_PK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>BE8068D3-876E-E100-A8FE-350C4E6969A0</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BF5F667-8B31-2CC7-2800-11C0D850EF31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D11FF8B2-7A26-1CC9-50D3-D908D3648CC1" name="Usuarios__IDX">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A9FD23FB-B6C4-7F6C-2BF9-AFDFD4131300</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EC220706-E764-D556-E977-790F867FF1A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BA454BE-81C7-FF53-AB7A-F516A194ED87" name="Usuarios_Telefones_FK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>A9FD23FB-B6C4-7F6C-2BF9-AFDFD4131300</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC220706-E764-D556-E977-790F867FF1A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

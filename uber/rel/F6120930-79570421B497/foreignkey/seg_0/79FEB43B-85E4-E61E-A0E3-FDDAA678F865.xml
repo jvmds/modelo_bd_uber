@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79FEB43B-85E4-E61E-A0E3-FDDAA678F865" containerWithKeyObject="A485F3B1-4AB6-F9F2-4BF7-C69489F398E9" localFKIndex="88B4F217-3D68-BBB9-BD6E-B30465D4204E" name="PayPal_FormasPagamento_FK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>97371339-9E35-9E7C-57D9-E95057250FB3</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<referredTableLongName>FormasPagamento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7452A8EE-AFB0-58B1-3CAB-450F31DE3869</referredTableID>
+<keyObject>22475E5E-73CB-6A49-39CD-FB7272DD3B73</keyObject>
+<referredKeyID>22475E5E-73CB-6A49-39CD-FB7272DD3B73</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdFormaPagamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

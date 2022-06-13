@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Usuario_Possui_CNH" directorySegmentName="seg_0" id="FE76F36B-38F7-7D6F-A391-16FAEFE12326">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 12:27:31 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<engineerTo>
+<item key="CF6111F5-9D76-4201-F56A-5EC7005B187B" value="true"/>
+</engineerTo>
+<sourcePk>BE8068D3-876E-E100-A8FE-350C4E6969A0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>443F3774-8922-B741-1A3D-4C9F10A58D43</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F7532013-C10F-FA93-5778-669D5D322B96</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

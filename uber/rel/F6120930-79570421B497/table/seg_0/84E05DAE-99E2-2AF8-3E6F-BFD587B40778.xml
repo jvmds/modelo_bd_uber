@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84E05DAE-99E2-2AF8-3E6F-BFD587B40778" name="Cartoes">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>A1ED40B3-50E1-8520-36E4-FF7A35EB9F60</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCartao" id="938FC40B-76F6-7277-0BEA-A3237089E338">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>0320677B-AE94-D582-4980-017D6058E3D5</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroCartao" id="1CBE8C72-6A89-93D4-31A7-41DB357CD307">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>93FFE45F-8E9D-326D-A302-FC500691ABAD</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataVencimento" id="09883DD6-8C8D-2F3E-E255-4DAB8653B1A5">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>133DD607-1111-0EE7-FB06-675FB8A52883</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CVV" id="1DC2672B-191A-FD02-4B94-FA6B4C2B8D61">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>3793022A-97D8-8967-85CF-8E0EA5A732C0</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoOperacao" id="06993B89-D72E-9B0B-961D-5C1FBA0D2C48">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>5A9363C5-E52F-3451-81BD-56877650AFD5</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FPagamento_IdFormaPagamento" id="D97D13E8-BAC4-6B57-DA78-3175C629110F">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>33BDCC6F-B173-2B52-E0FB-12AC4C8A42A0</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D204BB1-392E-7EC8-8A1B-145F8DC29DFC" referredColumn="44B741F6-0EB8-4B6C-6EDE-8289A829DFA8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87459D21-217B-D8EF-9CE1-174EBD11F9B2" name="Cartoes_PK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>AD1DB8C2-BAEB-7AC2-6BA0-7614DD871158</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="938FC40B-76F6-7277-0BEA-A3237089E338"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40C7A63F-3023-D1D6-0C3F-D38EAB982A8C" name="Cartoes__IDX">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7E2CE383-1ED2-A680-A224-733EF1719A71</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D97D13E8-BAC4-6B57-DA78-3175C629110F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="853AF881-0EBE-7C1C-9F5D-827D216CBBBF" name="Cartoes_FormasPagamento_FK">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:32:18 UTC</createdTime>
+<generatorID>7E2CE383-1ED2-A680-A224-733EF1719A71</generatorID>
+<ownerDesignName>uber</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D97D13E8-BAC4-6B57-DA78-3175C629110F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="tipoOperacaoCartao" directorySegmentName="seg_0" id="28B80914-67EC-EC15-0E34-DBCA29431EE2">
+<createdBy>joaov</createdBy>
+<createdTime>2022-06-13 14:44:59 UTC</createdTime>
+<ownerDesignName>uber</ownerDesignName>
+<rule><![CDATA[TipoOperacao in ("C", "D")]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
